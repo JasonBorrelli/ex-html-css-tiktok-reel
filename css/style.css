@@ -57,7 +57,20 @@ header ul {
 	display: flex;
 	justify-content: space-between;
 	gap: 15px;
+
+
 }
+
+.tiktok-sans-uniquifier {
+	font-family: "TikTok Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100;
+}
+
 
 header ul li:last-child a {
 	position: relative;
@@ -93,7 +106,39 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+	height: 50px;
+	font-size: 20px;
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
 }
+
+.footer a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	text-decoration: none;
+	gap: 10px;
+	font-size: 12px;
+}
+
+.footer a i {
+	font-size: 20px;
+}
+
 
 /* Sidebar */
 .sidebar {
