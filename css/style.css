@@ -39,7 +39,7 @@ video {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 25px 15px;
+	padding: 35px 15px;
 	color: #fff;
 	text-decoration: none;
 	height: 50px;
@@ -76,6 +76,23 @@ header ul li:last-child a::after {
 	width: 25px;
 	height: 2px;
 	background-color: #fff;
+}
+
+header ul::before {
+	content: "";
+	position: absolute;
+	bottom: 44px;
+	left: 57%;
+	border-radius: 50%;
+	background-color: red;
+	color: #ffffff;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 header a {
@@ -125,6 +142,24 @@ footer {
 	width: 100px;
 	text-align: center;
 }
+
+footer .posta::after {
+	content: "19";
+	position: absolute;
+	bottom: 36px;
+	left: 69%;
+	border-radius: 50%;
+	background-color: red;
+	color: #ffffff;
+	width: 22px;
+	height: 14px;
+	border-radius: 44%;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 
 
